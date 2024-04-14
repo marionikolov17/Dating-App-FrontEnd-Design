@@ -144,6 +144,14 @@ header {
     margin-bottom: 50px;
 }
 
+.posts-options {
+    margin-bottom: 30px;
+}
+
+.posts-options .options {
+    width: 50%;
+}
+
 .post {
     width: 50%;
     min-height: 550px;
@@ -213,10 +221,13 @@ header {
         width: 100%;
         margin-bottom: 0;
         border-radius: 0;
-        border: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        border-bottom: none !important;
     }
     .app-content-wrapper {
         width: 100%;
+        border: none !important;
     }
     .app-title-container h2 {
         margin-left: 15px !important;
@@ -224,8 +235,35 @@ header {
     .app-buttons-container a {
         margin-right: 25px !important;
     }
+    .app-hook-section {
+        margin-bottom: 20px !important;
+    }
     .app-hook-section .hook-title {
         display: none;
+    }
+    .options {
+        width: 100% !important;
+        border-bottom: none !important;
+    }
+    .posts-options {
+        margin-bottom: 20px !important;
+    }
+    .options button {
+        margin-left: 5px;
+    }
+    .post {
+        width: 100%;
+        border-bottom: none !important;
+        margin-bottom: 0 !important;
+    }
+    .post-engagement {
+        padding: 0 5px !important;
+    }
+    .post-stats {
+        padding: 0px 5px !important;
+    }
+    .post-description {
+        padding: 0 5px !important;
     }
 }
 
