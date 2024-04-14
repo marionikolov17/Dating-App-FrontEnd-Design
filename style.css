@@ -13,4 +13,10 @@
 
 body {
     font-family: var(--font);
+    font-weight: 400;
+}
+
+main {
+    position: absolute;
+    min-height: 100%;
 }
