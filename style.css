@@ -67,7 +67,11 @@ main {
 }
 
 
-
+/* App main styles */
+.app-content-wrapper {
+    width: 60%;
+    height: max-content;
+}
 
 
 /* Responsive queries */
