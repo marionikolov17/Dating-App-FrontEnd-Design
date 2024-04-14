@@ -119,4 +119,19 @@ header {
         border-radius: 0;
         border: none !important;
     }
+    .app-content-wrapper {
+        width: 100%;
+    }
+    .app-title-container h2 {
+        margin-left: 15px !important;
+    }
+    .app-buttons-container a {
+        margin-right: 25px !important;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .app-content-wrapper {
+        width: 100%;
+    }
 }
