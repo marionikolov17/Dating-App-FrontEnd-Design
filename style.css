@@ -156,6 +156,9 @@ header {
     .app-buttons-container a {
         margin-right: 25px !important;
     }
+    .app-hook-section .hook-title {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 850px) {
