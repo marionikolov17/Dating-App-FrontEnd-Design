@@ -109,6 +109,34 @@ header {
     right: 0%;
 }
 
+/* App-hook section */
+.app-hook-section {
+    height: 100px;
+}
+
+.app-hook-section p {
+    margin-bottom: 0 !important;
+}
+
+.app-hook-section .hook-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.app-hook-section a {
+    padding: 10px 15px;
+    width: 150px;
+    height: 45px !important;
+    text-decoration: none;
+    border-radius: 15px;
+    color: var(--white);
+    background-color: var(--red-main);
+}
+
+.app-hook-section a span {
+    color: var(--blue-secondary);
+}
+
 /* Responsive queries */
 
 /* Mobiles */
