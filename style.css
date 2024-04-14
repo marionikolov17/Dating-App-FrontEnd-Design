@@ -140,10 +140,15 @@ header {
 
 /* App posts */
 
+.app-posts-section {
+    margin-bottom: 50px;
+}
+
 .post {
     width: 50%;
     min-height: 550px;
     max-height: max-content;
+    margin-bottom: 50px;
 }
 
 /* Responsive queries */
