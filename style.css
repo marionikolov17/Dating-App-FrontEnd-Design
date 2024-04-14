@@ -69,10 +69,45 @@ main {
 
 /* App main styles */
 .app-content-wrapper {
-    width: 60%;
+    width: 50%;
     height: max-content;
+    font-family: var(--font) !important;
 }
 
+/* App header */
+header {
+    height: 80px;
+}
+
+.app-title-container h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.app-title-container h2 span {
+    color: var(--red-main);
+}
+
+.app-buttons-container a {
+    text-decoration: none;
+    color: var(--blue-main);
+    padding: 3px 5px;
+    position: relative;
+}
+
+.app-buttons-container a i {
+    font-size: 25px;
+}
+
+.notification-dot {
+    width: 11px;
+    height: 11px;
+    background-color: var(--red-main);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0%;
+}
 
 /* Responsive queries */
 
