@@ -78,4 +78,11 @@
         width: 40px;
         height: 40px;
     }
+    .notification .action-notification button {
+        font-size: 13px !important;
+    }
+    .notification .post-notification img {
+        width: 40px;
+        height: 40px;
+    }
 }
