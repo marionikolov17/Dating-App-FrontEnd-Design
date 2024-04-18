@@ -11,4 +11,36 @@
   --font: "Poppins", sans-serif;
 }
 
+.buttons-app-section {
+    height: 70px;
+}
 
+.buttons-app-section a {
+    color: var(--blue-main);
+}
+
+/* Notification container */
+.notification {
+    height: 65px;
+}
+
+.img-notification div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.notification p,
+.notification h4 {
+    margin-bottom: 0 !important;
+}
+
+.notification p img {
+    width: 20px;
+    height: 20px;
+}
+
+.notification .action-notification button {
+    background-color: var(--red-main);
+    color: var(--white);
+}
