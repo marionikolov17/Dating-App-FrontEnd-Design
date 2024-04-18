@@ -19,6 +19,11 @@
     color: var(--blue-main);
 }
 
+/* Notifications */
+.notifications {
+    min-height: 850px;
+}
+
 /* Notification container */
 .notification {
     height: 65px;
