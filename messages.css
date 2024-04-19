@@ -29,6 +29,20 @@ main {
     width: 20%;
 }
 
+.chats .app-title-section a {
+    text-decoration: none;
+    color: black;
+}
+
+.chats .app-title-section h2 {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.chats .app-title-section span {
+    color: var(--red-main);
+}
+
 .chats header a {
     color: var(--blue-main);
 }
