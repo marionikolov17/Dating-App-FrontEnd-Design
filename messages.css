@@ -20,3 +20,15 @@ main {
   position: absolute;
   min-height: 100%;
 }
+
+
+/* Messenger page */
+
+/* Chats section */
+.chats {
+    width: 20%;
+}
+
+.chats header a {
+    color: var(--blue-main);
+}
