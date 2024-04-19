@@ -8,6 +8,7 @@
   --blue-main: #666f80;
   --blue-secondary: #c3c8d3;
   --white: #fff;
+  --active-green: #32cc27;
   --font: "Poppins", sans-serif;
 }
 
@@ -50,3 +51,33 @@ main {
 /* .chats form button {
     border: 1px solid var(--red-main);
 } */
+
+.chat-message-container {
+    cursor: pointer;
+}
+
+.chat-message-container:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.active-dot {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: var(--active-green);
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+
+.chat-message-container .person-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.chat-message-container p {
+    font-size: 13px;
+    margin-bottom: 0;
+    color: var(--blue-main);
+}
