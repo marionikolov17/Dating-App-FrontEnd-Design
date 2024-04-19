@@ -32,3 +32,7 @@ main {
 .chats header a {
     color: var(--blue-main);
 }
+
+/* .chats form button {
+    border: 1px solid var(--red-main);
+} */

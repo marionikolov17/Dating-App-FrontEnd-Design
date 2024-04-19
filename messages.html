@@ -28,7 +28,8 @@
 </head>
 <body>
     <main class="w-100 d-flex overflow-hidden">
-        <div class="chats border">
+        <div class="chats border-end">
+            <!-- Chats header -->
             <header class="w-100 d-flex overflow-hidden align-items-center">
                 <h3 class="m-3">Chats</h3>
                 <div class="d-flex justify-content-end w-100">
@@ -37,6 +38,15 @@
                     </a>
                 </div>
             </header>
+            <!-- Chat search form -->
+            <form class="px-3">
+                <div class="input-group">
+                    <button class="btn btn-outline-secondary d-flex justify-content-center align-items-center">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <input type="text" class="form-control" placeholder="Search chats...">
+                </div>
+            </form>
         </div>
     </main>
     <!-- Scripts -->
