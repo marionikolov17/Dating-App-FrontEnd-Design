@@ -60,6 +60,16 @@ main {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+.chat-message-container .unread {
+    color: black;
+    font-weight: bold;
+}
+
+.chat-message-container .unread span {
+    font-weight: normal;
+    color: var(--blue-main);
+}
+
 .active-dot {
     width: 13px;
     height: 13px;
