@@ -113,3 +113,15 @@ h4 {
     font-size: 13px;
     color: var(--blue-main);
 }
+
+.person-info {
+    cursor: pointer;
+}
+
+.person-info:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.settings-button {
+    cursor: pointer;
+}
