@@ -119,11 +119,12 @@
                 </div>
             </div>
             <div class="chat-wrapper d-block w-100 h-100 position-relative">
-                <div class="chat-content w-100"></div>
+                <div class="chat-content w-100 overflow-x-hidden overflow-y-scroll"></div>
                 <div class="chat-message-form-container w-100 d-flex overflow-hidden border align-items-center justify-content-center">
                     <!-- Image Message Form -->
-                    <form class="d-flex">
-                        <label for=""><i class="fas fa-image"></i></label>
+                    <form class="d-flex image-message-form">
+                        <label for="image-message"><i class="far fa-file-image fs-4"></i></label>
+                        <input type="file" name="" id="image-message" class="d-none">
                     </form>
                 </div>
             </div>

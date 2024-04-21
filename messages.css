@@ -139,3 +139,8 @@ h4 {
     position: absolute;
     bottom: 0;
 }
+
+.image-message-form i {
+    cursor: pointer;
+    color: var(--blue-main);
+}
