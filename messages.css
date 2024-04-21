@@ -125,3 +125,17 @@ h4 {
 .settings-button {
     cursor: pointer;
 }
+
+.chat-wrapper {
+    height: calc(100vh - 70px) !important;
+}
+
+.chat-content {
+    height: calc(100% - 70px);
+}
+
+.chat-message-form-container {
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+}
