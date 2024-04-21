@@ -144,3 +144,8 @@ h4 {
     cursor: pointer;
     color: var(--blue-main);
 }
+
+.microphone-message-form i {
+    cursor: pointer;
+    color: var(--blue-main);
+}

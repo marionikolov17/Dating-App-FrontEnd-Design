@@ -122,9 +122,22 @@
                 <div class="chat-content w-100 overflow-x-hidden overflow-y-scroll"></div>
                 <div class="chat-message-form-container w-100 d-flex overflow-hidden border align-items-center justify-content-center">
                     <!-- Image Message Form -->
-                    <form class="d-flex image-message-form">
+                    <form class="d-flex image-message-form mx-4">
                         <label for="image-message"><i class="far fa-file-image fs-4"></i></label>
                         <input type="file" name="" id="image-message" class="d-none">
+                    </form>
+                    <!-- Microphone input form -->
+                    <form class="microphone-message-form mx-4">
+                        <i class="fas fa-microphone fs-4"></i>
+                    </form>
+                    <!-- Message form -->
+                    <form class="col-6">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Aa">
+                            <button class="input-group-text btn btn-outline-primary">
+                                    <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
                     </form>
                 </div>
             </div>
