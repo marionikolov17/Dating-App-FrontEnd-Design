@@ -27,7 +27,7 @@
     ></script>
 </head>
 <body>
-    <main class="w-100 d-flex overflow-hidden">
+    <main class="w-100 d-flex overflow-hidden desktop-view">
         <!-- Chats section -->
         <div class="chats border-end">
             <!-- App title section -->
@@ -272,6 +272,262 @@
                     </form>
                     <!-- Message form -->
                     <form class="col-6">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Aa">
+                            <button class="input-group-text btn btn-outline-primary">
+                                    <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main class="w-100 d-flex overflow-hidden mobile-view">
+        <!-- Chats section -->
+        <div class="chats border-end d-none">
+            <!-- App title section -->
+            <div class="app-title-section w-100 d-flex align-items-center">
+                <a href="index.html"><h2 class="mx-3 mt-3">App<span>Title</span></h2></a>
+            </div>
+            <!-- Chats header -->
+            <header class="w-100 d-flex overflow-hidden align-items-center">
+                <h3 class="m-3">Chats</h3>
+                <div class="d-flex justify-content-end w-100">
+                    <a href="index.html" class="m-3 fs-4">
+                        <i class="fas fa-home"></i>
+                    </a>
+                </div>
+            </header>
+            <!-- Chat search form -->
+            <form class="px-3">
+                <div class="input-group">
+                    <button class="btn btn-outline-secondary d-flex justify-content-center align-items-center">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <input type="text" class="form-control" placeholder="Search chats...">
+                </div>
+            </form>
+
+            <!-- Chat messages -->
+            <div class="chats-messages w-100 mt-4">
+                <!-- Chat Message Container -->
+                <div class="chat-message-container d-flex w-100 overflow-hidden align-items-center p-3">
+                    <div class="position-relative">
+                        <div class="person-img d-flex overflow-hidden">
+                            <img src="./assets/mario-profile-1.jpg" alt="" class="w-100 h-100">
+                        </div>
+                        <div class="active-dot border"></div>
+                    </div>
+                    <div class="message-details d-block h-100 ms-2">
+                        <h4 class="fs-6 fw-bold">Mario Nikolov</h4>
+                        <p>You: something you have already...<span class="ms-2">3h</span></p>
+                    </div>
+                </div>
+                <!-- Chat Message Container -->
+                <div class="chat-message-container d-flex w-100 overflow-hidden align-items-center p-3">
+                    <div class="position-relative">
+                        <div class="person-img d-flex overflow-hidden">
+                            <img src="./assets/mark2.webp" alt="" class="w-100 h-100">
+                        </div>
+                        <!-- <div class="active-dot border"></div> -->
+                    </div>
+                    <div class="message-details d-block h-100 ms-2">
+                        <h4 class="fs-6 fw-bold">Mark Zuckerberg</h4>
+                        <p>You sent a photo.<span class="ms-2">2d</span></p>
+                    </div>
+                </div>
+                <!-- Chat Message Container -->
+                <div class="chat-message-container d-flex w-100 overflow-hidden align-items-center p-3">
+                    <div class="position-relative">
+                        <div class="person-img d-flex overflow-hidden">
+                            <img src="./assets/elon2.jpg" alt="" class="w-100 h-100">
+                        </div>
+                        <div class="active-dot border"></div>
+                    </div>
+                    <div class="message-details d-block h-100 ms-2">
+                        <h4 class="fs-6 fw-bold">Elon Musk</h4>
+                        <p class="unread">Elon: this is very good app<span class="ms-2">1d</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Chat section -->
+        <div class="chat-section d-block overflow-hidden">
+            <div class="chat-info w-100 d-flex border-bottom">
+                <!-- Person info -->
+                <div class="col-3 d-flex align-items-center p-3 person-info">
+                    <div class="position-relative ms-4">
+                        <div class="person-img d-flex overflow-hidden">
+                            <img src="./assets/mark2.webp" alt="" class="w-100 h-100">
+                        </div>
+                        <div class="active-dot border"></div>
+                    </div>
+                    <div class="d-block ms-3">
+                        <h4 class="fs-6 fw-bold mb-0">Mark Zuckerberg</h4>
+                        <p class="mt-0 person-status">Active now</p>
+                    </div>
+                </div>
+                <!-- Chat buttons -->
+                <div class="col-9 d-flex align-items-center justify-content-end chat-btns">
+                    <i class="fas fa-cog me-5 fs-3 settings-button"></i>
+                </div>
+            </div>
+            <!-- Options section -->
+            <div class="options-wrapper w-100 d-none justify-content-center align-items-center position-relative">
+                <i class="fas fa-arrow-left position-absolute top-0 start-0 mt-3 ms-3 fs-4 return-btn"></i>
+                <div class="options-content d-block col-2">
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-outline-secondary mt-3"><i class="fas fa-volume-mute"></i> Mute</button>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-danger mt-3 d-block"><i class="fas fa-ban"></i> Block</button>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-outline-danger mt-3 d-block"><i class="far fa-flag"></i> Report</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Actual chat container -->
+            <div class="chat-wrapper d-block w-100 h-100 position-relative">
+                <div class="chat-content w-100 overflow-x-hidden overflow-y-scroll d-flex align-items-start">
+                    <!-- Chat section -->
+                    <div class="time-chat-section w-100 d-block">
+                        <div class="w-100 d-flex justify-content-center">
+                            <p class="time-text my-3">Tuesday 16:23</p>
+                        </div>
+                        <!-- Message - other -->
+                        <div class="message w-100 d-flex py-2 pe-4 ps-2 mt-2">
+                            <div class="message-person-img d-flex justify-content-center align-items-center overflow-hidden">
+                                <img src="./assets/mark2.webp" alt="" class="w-100 h-100">
+                            </div>
+                            <div class="ms-2 w-100">
+                                <div class="message-text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ratione accusamus asperiores dolor nihil, recusandae dicta laborum, ut officia ipsa aperiam, ducimus aspernatur aliquam nam voluptate accusantium tempore eum commodi.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Message - your -->
+                        <div class="message w-100 d-flex justify-content-end py-2 pe-2 ps-4 mt-2">
+                            <div class="w-100 d-flex justify-content-end">
+                                <div class="message-text your-message">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ratione accusamus asperiores dolor nihil, recusandae dicta laborum, ut officia ipsa aperiam, ducimus aspernatur aliquam nam voluptate accusantium tempore eum commodi.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Seen status -->
+                        <p class="text-end mb-1 mx-4 seen-text">Seen</p>
+                    </div>
+                    <!-- Chat section -->
+                    <div class="time-chat-section w-100 d-block">
+                        <div class="w-100 d-flex justify-content-center">
+                            <p class="time-text my-3">Friday 12:43</p>
+                        </div>
+                        <!-- Message - other -->
+                        <div class="message w-100 d-flex py-2 pe-4 ps-2 mt-2">
+                            <div class="message-person-img d-flex justify-content-center align-items-center overflow-hidden">
+                                <img src="./assets/mark2.webp" alt="" class="w-100 h-100">
+                            </div>
+                            <div class="ms-2 w-100">
+                                <div class="message-text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ratione accusamus asperiores dolor nihil, recusandae dicta laborum, ut officia ipsa aperiam, ducimus aspernatur aliquam nam voluptate accusantium tempore eum commodi.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Message - your -->
+                        <div class="message w-100 d-flex justify-content-end py-2 pe-2 ps-4 mt-2">
+                            <div class="w-100 d-flex justify-content-end">
+                                <div class="message-text your-message">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ratione accusamus asperiores dolor nihil, recusandae dicta laborum, ut officia ipsa aperiam, ducimus aspernatur aliquam nam voluptate accusantium tempore eum commodi.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Message - other - photo -->
+                        <div class="message w-100 d-flex py-2 pe-4 ps-2 mt-2">
+                            <div class="message-person-img d-flex justify-content-center align-items-center overflow-hidden">
+                                <img src="./assets/mark2.webp" alt="" class="w-100 h-100">
+                            </div>
+                            <div class="ms-2 w-100">
+                                <div class="message-image">
+                                    <img src="./assets/mario-profile-1.jpg" alt="" class="w-100 h-100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Chat section -->
+                    <div class="time-chat-section w-100 d-block">
+                        <div class="w-100 d-flex justify-content-center">
+                            <p class="time-text my-3">Today 18:32</p>
+                        </div>
+                        <!-- Message - your -->
+                        <div class="message w-100 d-flex justify-content-end py-2 pe-2 ps-4 mt-2">
+                            <div class="w-100 d-flex justify-content-end">
+                                <div class="message-text your-message">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ratione accusamus asperiores dolor nihil, recusandae dicta laborum, ut officia ipsa aperiam, ducimus aspernatur aliquam nam voluptate accusantium tempore eum commodi.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Message - other - photo -->
+                        <div class="message w-100 d-flex py-2 pe-4 ps-2 mt-2">
+                            <div class="message-person-img d-flex justify-content-center align-items-center overflow-hidden">
+                                <img src="./assets/mark2.webp" alt="" class="w-100 h-100">
+                            </div>
+                            <div class="ms-2 w-100">
+                                <div class="message-image">
+                                    <img src="./assets/mario-profile-1.jpg" alt="" class="w-100 h-100">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Message - your - photo -->
+                        <div class="message w-100 d-flex justify-content-end py-2 pe-2 ps-4 mt-2">
+                            <div class="w-100 d-flex justify-content-end">
+                                <div class="message-image">
+                                    <img src="/assets/mark2.webp" alt="" class="w-100 h-100">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Message - other - audio -->
+                        <div class="message w-100 d-flex py-2 pe-4 ps-2 mt-2">
+                            <div class="message-person-img d-flex justify-content-center align-items-center overflow-hidden">
+                                <img src="./assets/mark2.webp" alt="" class="w-100 h-100">
+                            </div>
+                            <div class="ms-2 w-100">
+                                <div class="message-audio">
+                                    <i class="fas fa-play ms-2 fs-5"></i>
+                                    <div class="audio-progress-bar shadow">
+                                        <div class="audio-progress-color"></div>
+                                    </div>
+                                    <p class="ms-3">00:09</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Message - your - audio -->
+                        <div class="message w-100 d-flex justify-content-end py-2 pe-2 ps-4 mt-2">
+                            <div class="w-100 d-flex justify-content-end">
+                                <div class="message-audio your-audio">
+                                    <i class="fas fa-play ms-2 fs-5"></i>
+                                    <div class="audio-progress-bar shadow">
+                                        <div class="audio-progress-color"></div>
+                                    </div>
+                                    <p class="ms-3">00:09</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-message-form-container w-100 d-flex overflow-hidden border-top align-items-center justify-content-center">
+                    <!-- Image Message Form -->
+                    <form class="d-flex image-message-form mx-3">
+                        <label for="image-message"><i class="far fa-file-image fs-4"></i></label>
+                        <input type="file" name="" id="image-message" class="d-none">
+                    </form>
+                    <!-- Microphone input form -->
+                    <form class="microphone-message-form mx-3">
+                        <i class="fas fa-microphone fs-4"></i>
+                    </form>
+                    <!-- Message form -->
+                    <form class="col-7">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Aa">
                             <button class="input-group-text btn btn-outline-primary">

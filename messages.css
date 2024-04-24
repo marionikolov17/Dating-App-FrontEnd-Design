@@ -252,9 +252,48 @@ h4 {
 
 
 
+.mobile-view {
+    display: none !important;
+}
 
+.mobile-view .chats {
+    width: 100% !important;
+}
 
+.mobile-view .chat-section {
+    width: 100% !important;
+}
 
+.mobile-view .person-info {
+    width: 80% !important;
+}
+
+.mobile-view .chat-btns {
+    width: 20% !important;
+}
+
+.mobile-view .message-text {
+    width: 100% !important;
+}
+
+.mobile-view .message-text p {
+    font-size: 14px;
+}
+
+.mobile-view .message-person-img {
+    width: 30px;
+    height: 30px;
+}
+
+.mobile-view .message-image {
+    width: 200px;
+    min-height: min-content;
+}
+
+.mobile-view .message-audio {
+    width: 200px;
+    padding: 10px;
+}
 
 /* RESPONSIVE DESIGN */
 @media screen and (max-width: 1450px) {
@@ -276,5 +315,34 @@ h4 {
 
     .message-text {
         width: 65% !important;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .desktop-view {
+        display: none !important;
+    }
+    .mobile-view {
+        display: flex !important;
+    }
+}
+
+@media screen and (min-width: 430px) and (max-width: 650px) {
+    .mobile-view .message-text {
+        width: 80% !important;
+    }
+    .mobile-view .message-audio {
+        width: 250px;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 850px) {
+    .mobile-view .message-text {
+        width: 60% !important;
+    }
+    .mobile-view .message-audio {
+        width: 350px;
+    }
+    .mobile-view .message-image {
+        width: 300px;
     }
 }
