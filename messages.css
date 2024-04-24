@@ -238,3 +238,13 @@ h4 {
 .your-audio .audio-progress-color {
     background-color: var(--blue-main);
 }
+
+/* Options section */
+.options-wrapper {
+    height: calc(100vh - 70px) !important;
+}
+
+.options-wrapper .return-btn {
+    color: var(--blue-main);
+    cursor: pointer;
+}
