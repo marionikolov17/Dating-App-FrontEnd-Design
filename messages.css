@@ -248,3 +248,33 @@ h4 {
     color: var(--blue-main);
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 1450px) {
+    .chats {
+        width: 30%;
+    }
+
+    .chat-section {
+        width: 70%;
+    }
+
+    .person-info {
+        width: 50% !important;
+    }
+
+    .chat-btns {
+        width: 50% !important;
+    }
+
+    .message-text {
+        width: 65% !important;
+    }
+}
