@@ -229,3 +229,12 @@ h4 {
     width: 25%;
     background-color: var(--red-main);
 }
+
+.your-audio {
+    background-color: var(--red-main);
+    color: var(--white);
+}
+
+.your-audio .audio-progress-color {
+    background-color: var(--blue-main);
+}
