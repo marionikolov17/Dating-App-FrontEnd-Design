@@ -199,3 +199,33 @@ h4 {
     min-height: 300px;
     max-height: 500px;
 }
+
+.message-audio {
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgba(195, 200, 211, 0.3);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.message-audio i {
+    cursor: pointer;
+}
+
+.audio-progress-bar {
+    width: 65%;
+    height: 15px;
+    background-color: var(--white);
+    margin-left: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.audio-progress-color {
+    height: 100%;
+    width: 25%;
+    background-color: var(--red-main);
+}
