@@ -27,6 +27,34 @@
     ></script>
   </head>
   <body>
-    
+    <main class="w-100 position-absolute overflow-x-hidden">
+        <div class="login-form-wrapper w-100 d-flex justify-content-center align-items-end">
+            <form class="rounded-1">
+                <h2 class="text-center my-3 fw-bold">App<span>Title</span></h2>
+                <div class="px-4 mt-5">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInput">
+                        <label for="floatingInput">Username</label>
+                    </div>
+                </div>
+                <div class="px-4 mt-2">
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingInput">
+                        <label for="floatingInput">Password</label>
+                    </div>
+                </div>
+
+                <!-- Login form error - username or password are incorrect. -->
+                <p class="form-err ms-4 mt-1">Username or password are incorrect</p>
+
+                <div class="px-4">
+                    <button class="btn btn-outline-primary w-100">Login</button>
+                </div>
+
+                <p class="ms-4 mt-5 mb-0 special-text">Don't have an account? <a href="">Register</a> now!</p>
+                <a href="" class="ms-4 special-text mt-1">Forgotten password?</a>
+            </form>
+        </div>
+    </main>
   </body>
 </html>
