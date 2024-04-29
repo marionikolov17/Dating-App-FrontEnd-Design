@@ -42,3 +42,16 @@ form .form-err {
 form .special-text {
     font-size: 13px;
 }
+
+/* Store buttons */
+.store-buttons a {
+    max-width: 190px;
+    max-height: 70px;
+    min-width: 145px;
+    height: auto;
+}
+
+.store-buttons a img {
+    width: 100%;
+    height: 100%;
+}
