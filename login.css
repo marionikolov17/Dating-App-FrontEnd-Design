@@ -27,6 +27,7 @@ form {
     width: 380px;
     height: 450px;
     background-color: var(--white);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 form h2 span {
@@ -69,4 +70,29 @@ form .special-text {
 footer p {
     font-size: 14px;
     font-weight: bold;
+}
+
+/* Responsive */
+@media screen and (max-width: 415px) {
+    form {
+        box-shadow: none !important;
+        height: 410px;
+    }
+    .login-form-wrapper {
+        height: max-content;
+        margin: 5px 0;
+    }
+    .store-buttons {
+        margin-top: 0 !important;
+    }
+    .links {
+        margin-top: 15px;
+    }
+    .links a {
+        font-size: 14px;
+    }
+    footer p {
+        font-size: 11px;
+        font-weight: normal;
+    }
 }
