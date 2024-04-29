@@ -21,6 +21,8 @@ main {
     min-height: 100%;
 }
 
+/* Header - search page */
+
 header {
     height: 75px;
 }
@@ -41,12 +43,41 @@ header h2 span {
     color: var(--red-main);
 }
 
+
+/* Explore section - search page */
 .explore-content {
-    display: grid;
+    display: none; /* grid */
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 .explore-content .image {
     height: 200px;
     cursor: pointer;
+}
+
+/* Search results */
+.match-result {
+    height: 65px;
+    cursor: pointer;
+}
+
+.match-result:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.match-result .profile-img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.match-result h5 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.match-result p {
+    font-size: 13px;
+    color: var(--blue-main);
 }
