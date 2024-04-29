@@ -33,6 +33,12 @@ header a {
     margin-bottom: 0 !important;
 }
 
+header a.visible {
+    display: none;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
 header h2 {
     font-weight: bold;
     font-size: 26px;
@@ -43,15 +49,19 @@ header h2 span {
     color: var(--red-main);
 }
 
+header form {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
 
 /* Explore section - search page */
 .explore-content {
-    display: none; /* grid */
+    display: grid; /* grid */
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 .explore-content .image {
-    height: 200px;
+    height: auto;
     cursor: pointer;
 }
 
@@ -80,4 +90,36 @@ header h2 span {
 .match-result p {
     font-size: 13px;
     color: var(--blue-main);
+}
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 1000px) {
+    .search-content {
+        width: 100%;
+    }
+    .explore-content {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header a {
+        display: none !important;
+    }
+    header a.visible {
+        display: block !important;
+        margin-right: 0px !important;
+    }
+    form {
+        padding-left: 0px !important;
+        padding-right: 10px !important;
+    }
+    .explore-content {
+        grid-template-columns: auto auto auto;
+    }
+    .explore-content .image {
+        height: auto;
+    }
 }
