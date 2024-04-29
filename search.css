@@ -10,3 +10,33 @@
   --white: #fff;
   --font: "Poppins", sans-serif;
 }
+
+main {
+    min-height: 100%;
+    font-family: var(--font) !important;
+}
+
+.search-content {
+    width: 50%;
+    min-height: 100%;
+}
+
+header {
+    height: 75px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0 !important;
+}
+
+header h2 {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 0 !important;
+}
+
+header h2 span {
+    color: var(--red-main);
+}
