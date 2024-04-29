@@ -64,3 +64,9 @@ form .special-text {
     margin: 0 5px;
     text-decoration: none;
 }
+
+/* Footer */
+footer p {
+    font-size: 14px;
+    font-weight: bold;
+}
