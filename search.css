@@ -40,3 +40,13 @@ header h2 {
 header h2 span {
     color: var(--red-main);
 }
+
+.explore-content {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.explore-content .image {
+    height: 200px;
+    cursor: pointer;
+}
