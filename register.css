@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --red-main: #fb6d6c;
+  --blue-main: #666f80;
+  --blue-secondary: #c3c8d3;
+  --white: #fff;
+  --error: #e02424;
+  --font: "Poppins", sans-serif;
+}
+
+main {
+  min-height: 100%;
+  font-family: var(--font) !important;
+}
