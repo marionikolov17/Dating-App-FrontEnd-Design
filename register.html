@@ -36,7 +36,39 @@
       </section>
       <section class="register-section col-6 d-flex justify-content-center align-items-center overflow-hidden">
         <form class="shadow border">
-
+          <h5 class="text-center mt-5 fw-bold fs-4">Create an account</h5>
+          <!-- Username input -->
+          <div class="px-5 mt-4">
+            <div class="form-floating">
+              <input type="text" class="form-control" id="username" placeholder="username">
+              <label for="username">Username</label>
+            </div>
+          </div>
+          <!-- Email input -->
+          <div class="px-5 my-3">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="email" placeholder="email">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <!-- Password input -->
+          <div class="px-5 my-3">
+            <div class="form-floating">
+              <input type="password" class="form-control" id="password" placeholder="password">
+              <label for="password">Password</label>
+            </div>
+          </div>
+          <!-- Repassword input -->
+          <div class="px-5 my-3">
+            <div class="form-floating">
+              <input type="password" class="form-control" id="rePassword" placeholder="rePassword">
+              <label for="rePassword">Repeat password</label>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center px-5 mt-4">
+            <button class="btn btn-outline-primary w-100">Next</button>
+          </div>
+          <p class="text-center mt-4 special-text">Already have an account? <a href="/login.html">Log in</a></p>
         </form>
       </section>
     </main>

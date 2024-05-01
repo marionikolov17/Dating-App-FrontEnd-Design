@@ -27,3 +27,7 @@ main {
   width: 400px;
   height: 550px;
 }
+
+.register-section form .special-text {
+  font-size: 14px;
+}
