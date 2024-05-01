@@ -16,3 +16,8 @@ main {
   min-height: 100%;
   font-family: var(--font) !important;
 }
+
+/* Landing section */
+.landing-section h1 span {
+  color: var(--red-main);
+}
