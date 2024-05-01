@@ -31,3 +31,23 @@ main {
 .register-section form .special-text {
   font-size: 14px;
 }
+
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 800px) {
+  .landing-section {
+    display: none !important;
+  }
+  .register-section {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .register-section form {
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
