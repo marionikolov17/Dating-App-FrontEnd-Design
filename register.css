@@ -21,3 +21,9 @@ main {
 .landing-section span {
   color: var(--red-main);
 }
+
+/* Register section */
+.register-section form {
+  width: 400px;
+  height: 550px;
+}
