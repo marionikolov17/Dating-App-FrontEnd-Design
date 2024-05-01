@@ -18,6 +18,6 @@ main {
 }
 
 /* Landing section */
-.landing-section h1 span {
+.landing-section span {
   color: var(--red-main);
 }
