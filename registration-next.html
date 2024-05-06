@@ -27,8 +27,32 @@
         ></script>
     </head>
 <body>
-    <main class="w-100 overflow-x-hidden position-absolute">
+    <main class="w-100 overflow-x-hidden position-absolute d-flex justify-content-center align-items-center">
 
+
+        <!-- Year section -->
+        <section class="year-section border d-block">
+            <h3 class="text-center fw-bold mt-3">App<span>Title</span></h3>
+
+            <p class="m-4 fs-5">When were you born?</p>
+            <div class="row g-1 px-3">
+                <div class="col">
+                    <input type="number" placeholder="Day" class="form-control">
+                </div>
+                <div class="col">
+                    <select name="" id="" class="form-select">
+                        <option disabled hidden selected>Month</option>
+                        <option value="Jan">Jan</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <input type="number" placeholder="Year" class="form-control">
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-4">
+                <button class="btn btn-primary page-btn">Next</button>
+            </div>
+        </section>
     </main>
 
     <!-- Scripts -->

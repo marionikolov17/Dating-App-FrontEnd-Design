@@ -10,3 +10,29 @@
   --white: #fff;
   --font: "Poppins", sans-serif;
 }
+
+main {
+    min-height: 100%;
+    font-family: var(--font) !important;
+}
+
+.page-btn {
+    width: 150px;
+}
+
+/* Year section */
+.year-section {
+    width: 350px;
+    height: 250px;
+}
+
+.year-section h3 span {
+    color: var(--red-main);
+}
+
+/* Responsive */
+@media screen and (max-width: 420px) {
+    .year-section {
+        border: none !important;
+    }
+}
